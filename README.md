@@ -58,7 +58,8 @@ database through pgAdmin.
 		then it will reside in table public.user_rejection_details and will have current_flag = 1. Due to the 
 		value change of criteria parameters, if this record turns into a matching record, then the value of 
 		'current_flag' of that row will be moidified to 0. if that record turns into a rejected record again 
-		due to the changes in values of criteria parameters, then again the value of 'current_flag' of that row will be 			moidified to 1.
+		due to the changes in values of criteria parameters, then again the value of 'current_flag' of that row will be
+		moidified to 1.
 
 6) Create a folder "Data" in "C:\" drive and place the "data.json" data file in that folder. 
 
